@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+
+  background-color: #222222;
+  color: #d4d4d4;
+
+  font-family: "Raleway", sans-serif;
+
+  position: relative;
+}
+
+.cash {
+  position: fixed;
+
+  top: 30px;
+  left: 50px;
+
+  font-size: 50px;
+
+  display: flex;
+  align-items: center;
+  gap: 15px;
+
+  button {
+    border-radius: 100px;
+    border: none;
+
+    width: 35px;
+    height: 35px;
+    font-size: 25px;
+  }
+}
